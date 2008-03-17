@@ -3,13 +3,12 @@ perl-Tie-IxHash
 Perl module implementing ordered in-memory associative arrays
 
 Runtime requirements:
-  perl-5.8.8-4
+  perl-5.10.0-3
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.6-1
+  cygwin-1.5.25-7
+  cygport-0.3.9-1
   make-3.81-1
-  perl-5.8.8-4
 
 Canonical website:
   http://search.cpan.org/dist/Tie-IxHash/
@@ -34,18 +33,18 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Tie-IxHash.sh
-  /usr/lib/perl5/vendor_perl/5.8/Tie/IxHash.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Tie/IxHash/.packlist
-  /usr/share/doc/Cygwin/perl-Tie-IxHash-1.21.README
+  /usr/lib/perl5/vendor_perl/5.10/Tie/IxHash.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Tie/IxHash/.packlist
   /usr/share/doc/perl-Tie-IxHash-1.21/Changes
   /usr/share/doc/perl-Tie-IxHash-1.21/README
   /usr/share/man/man3/Tie.IxHash.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Tie-IxHash.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.21-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 1.21-1 -----
 Initial release for Cygwin.

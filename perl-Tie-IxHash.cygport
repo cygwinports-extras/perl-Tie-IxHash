@@ -1,0 +1,9 @@
+CPAN_AUTHOR=chorny
+inherit perl
+
+NAME="perl-Tie-IxHash"
+VERSION=1.23
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module implementing ordered in-memory associative arrays"
+DESCRIPTION="Perl module implementing ordered in-memory associative arrays"

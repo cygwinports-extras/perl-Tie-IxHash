@@ -1,4 +1,0 @@
-category: Perl
-requires: perl
-sdesc: "Perl module implementing ordered in-memory associative arrays"
-ldesc: "Perl module implementing ordered in-memory associative arrays"

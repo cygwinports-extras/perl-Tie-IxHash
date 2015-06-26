@@ -3,7 +3,9 @@ inherit perl
 
 NAME="perl-Tie-IxHash"
 VERSION=1.23
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
-SUMMARY="Perl module implementing ordered in-memory associative arrays"
+SUMMARY="Perl distribution Tie-IxHash"
 DESCRIPTION="Perl module implementing ordered in-memory associative arrays"
+
+ARCH=noarch
